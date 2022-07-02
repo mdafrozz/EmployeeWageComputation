@@ -1,14 +1,14 @@
 /**
  * 
  */
-package emp_wage_computation_interface;
+package emp_wage_final;
 
 /**
  * @author MD_AFROZ
  *
  */
+
 public class CompanyEmpWage {
-	
 	public final String company;
 	public final int empRatePerHour;
 	public final int numOfWorkingDays;
@@ -21,6 +21,7 @@ public class CompanyEmpWage {
 		this.empRatePerHour = empRatePerHour;
 		this.numOfWorkingDays = numOfWorkingDays;
 		this.maxHoursPerMonth = maxHoursPerMonth;
+		totalEmpWage = 0;
 	}
 	public void setTotalEmpWage(int totalEmpWage) {
 		this.totalEmpWage = totalEmpWage;
@@ -31,3 +32,4 @@ public class CompanyEmpWage {
 	+ totalEmpWage;
 	}
 }
+
